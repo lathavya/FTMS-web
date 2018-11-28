@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[FTMS: Home is passed]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[FTMS: Biology Plan is passed]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[FTMS: Technical Objectives is passed]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20907" started-at="2018-11-28T05:41:24Z" finished-at="2018-11-28T05:41:44Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20907" started-at="2018-11-28T05:41:24Z" finished-at="2018-11-28T05:41:44Z">
+      <class name="script.Tests">
+        <test-method status="PASS" signature="OpenApp()[pri:0, instance:script.Tests@7c0e2abd]" name="OpenApp" is-config="true" duration-ms="12810" started-at="2018-11-28T11:11:24Z" finished-at="2018-11-28T11:11:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApp -->
+        <test-method status="PASS" signature="monitering()[pri:0, instance:script.Tests@7c0e2abd]" name="monitering" duration-ms="8066" started-at="2018-11-28T11:11:36Z" finished-at="2018-11-28T11:11:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[FTMS: Home is passed]]>
+            </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[FTMS: Biology Plan is passed]]>
+            </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[FTMS: Technical Objectives is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- monitering -->
+      </class> <!-- script.Tests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
