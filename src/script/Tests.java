@@ -9,7 +9,10 @@ import utilities.ChemicalsPage;
 import utilities.HomePage;
 import utilities.ProtocolIndexReportPage;
 import utilities.ProtocolSearchPage;
+import utilities.SOPSummaryReportpage;
+import utilities.SOPsSearchPage;
 import utilities.TechnicalObjectiveSearchPage;
+import utilities.UploadPage;
 import utilities.UserGroupsPage;
 import utilities.ValueEditorsPage;
 import utilities.VendorPlanReportpage;
@@ -24,8 +27,8 @@ public class Tests extends BaseTest {
 	driver.manage().window().maximize();
 	
 	BasePage BP = new BasePage(driver);
-	BP.Verifytitle("FTMS: Home");
-	BP.Screenshot("Home Page");
+	//BP.Verifytitle("FTMS: Home");
+	//BP.Screenshot("Home Page");
 	
 	HomePage HP= new HomePage(driver);
 	
@@ -46,6 +49,14 @@ public class Tests extends BaseTest {
 	BP.Screenshot("Technical Objective");
 	
 	HP.ClickOnDropButton();
+	HP.ClickonSOPsSearchPage();
+	SOPsSearchPage SSPage = new SOPsSearchPage(driver);
+	SSPage.SOPsTable();
+	BP.Verifytitle("FTMS: SOP Search");
+	BP.Screenshot("SOPs"); 
+	
+
+	HP.ClickOnDropButton();
 	HP.ClickonProtocolsandTrials();
 	HP.ClickonProtocol();
 	ProtocolSearchPage PSearch = new ProtocolSearchPage(driver);
@@ -62,11 +73,11 @@ public class Tests extends BaseTest {
 	
 	HP.ClickOnDropButton();
 	HP.ClickonReports();
-	HP.ClickonProtocolIndexReport();
-	ProtocolIndexReportPage PIReport = new ProtocolIndexReportPage(driver);
-	PIReport.ProtocolIndexReportTable();
-	BP.Verifytitle("FTMS: Protocol Index Report");
-	BP.Screenshot("ProtocolIndexReport");
+	HP.ClickonSOPSummaryReport();;
+	SOPSummaryReportpage SSReport = new SOPSummaryReportpage(driver);
+	SSReport.SOPSummaryReportTable();;
+	BP.Verifytitle("FTMS: SOP Summary Report");
+	BP.Screenshot("SOP Summary Report");
 	
 	HP.ClickOnDropButton();
 	HP.ClickonBiologyPlanReport();
@@ -80,7 +91,7 @@ public class Tests extends BaseTest {
 	VendorPlanReportpage VPReport = new VendorPlanReportpage(driver);
 	VPReport.VendorPlanTable();
 	BP.Screenshot("Vendor Report");
-	BP.Verifytitle("FTMS: VEndor Report");
+	BP.Verifytitle("FTMS: Vendor Report");
 	
 	HP.ClickOnDropButton();
 	HP.ClickonAdmin();
@@ -105,11 +116,20 @@ public class Tests extends BaseTest {
 	BP.Screenshot("Chemical");
 	BP.Verifytitle("FTMS: Chemical");
 	
-	
-	
-		
-	
-	
-	}
+	HP.ClickOnDropButton();
+	HP.ClickonProtocolsandTrials();
+	HP.ClickonUpload();
+	UploadPage UPage = new UploadPage(driver);
+	UPage.AddTrialfiles();
+	BP.Uploadfiles("d:\\Downloads\\CDS97203.DPW");
+/*	UPage.AddTrialfiles();
+	BP.Uploadfiles("d:\\Downloads\\CDS97203.TDW");
+	UPage.TrialisReadyMessage();
+	UPage.ClickonUploadFiles();
+	UPage.uploadedFileMessage();
+	BP.Verifytitle("FTMS: Upload Page");
+	BP.Screenshot("Upload");
+	*/
+		}
 
 }

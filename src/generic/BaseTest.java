@@ -20,9 +20,9 @@ public void OpenApp(){
 	//wait = new WebDriverWait(driver, 10);
 }
 
-@AfterMethod
+/*@AfterMethod
 public void ScreenshotCloseApp(){
 	driver.quit();
-}
+}*/
 
 }

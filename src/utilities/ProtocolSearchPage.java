@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 import generic.BasePage;
 
 public class ProtocolSearchPage extends BasePage {
-	@FindBy(xpath="(//tr)[3]")
+	@FindBy(xpath="(//tr)[6]")
 	private WebElement Table;
 
 public ProtocolSearchPage(WebDriver driver){

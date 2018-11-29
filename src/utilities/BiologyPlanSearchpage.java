@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 import generic.BasePage;
 
 public class BiologyPlanSearchpage extends BasePage {
-	@FindBy(xpath="(//tr)[3]")
+	@FindBy(xpath="(//tr)[6]")
     private WebElement Table;
     
 

@@ -2,6 +2,8 @@ package generic;
 
 import java.awt.AWTException;
 import java.awt.Robot;
+import java.awt.Toolkit;
+import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
 import java.io.File;
 import java.io.IOException;
@@ -38,7 +40,7 @@ public  class BasePage extends BaseTest  {
 	}
 	
 	public void VerifyElement(WebElement element){
-		WebDriverWait wait = new WebDriverWait(driver,10);
+		WebDriverWait wait = new WebDriverWait(driver,50);
 		try{
 			wait.until(ExpectedConditions.visibilityOf(element));
 			Reporter.log("Element is present");
@@ -50,6 +52,22 @@ public  class BasePage extends BaseTest  {
 			Assert.fail();
 		}
 		}
+	public void Uploadfiles(String filename){
+		StringSelection Str = new StringSelection(filename);
+		Toolkit.getDefaultToolkit().getSystemClipboard().setContents(Str, null);
+		try {
+			Robot R = new Robot();
+			R.keyPress(KeyEvent.VK_CONTROL);
+			R.keyPress(KeyEvent.VK_V);
+			R.keyRelease(KeyEvent.VK_CONTROL);
+			R.keyRelease(KeyEvent.VK_V);
+			R.keyPress(KeyEvent.VK_ENTER);
+			R.keyRelease(KeyEvent.VK_ENTER);				
+		} catch (Exception e) {
+		System.out.println("Not able to upload file");	
+		}
+		
+	}
 	public void Screenshot(String Screenshotname){
 		try {
 		TakesScreenshot ts= (TakesScreenshot) driver ;
@@ -62,6 +80,7 @@ public  class BasePage extends BaseTest  {
           		
 	}
 	public void ClearSearchfiled(){
+		
 		driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
 		try {
 			WebElement Searchfield = driver.findElement(By.xpath("(//input[@type='text'])[6]"));

@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 import generic.BasePage;
 
 public class TechnicalObjectiveSearchPage extends BasePage {
-	@FindBy(xpath="(//td[@unselectable='on'])[1]")
+	@FindBy(xpath="(//tr)[6]")
 	private WebElement Table;
 	
 	public TechnicalObjectiveSearchPage(WebDriver driver){

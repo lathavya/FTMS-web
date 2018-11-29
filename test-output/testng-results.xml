@@ -2,9 +2,6 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[FTMS: Home is passed]]>
-    </line>
-    <line>
       <![CDATA[Element is present]]>
     </line>
     <line>
@@ -16,21 +13,72 @@
     <line>
       <![CDATA[FTMS: Technical Objectives is passed]]>
     </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[FTMS: SOP Search is passed]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[FTMS: Protocols is passed]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[FTMS: Assignment is passed]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[FTMS: Protocol Index Report is passed]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[FTMS: Biology Plan Report is passed]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[FTMS: Vendor Report is passed]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[FTMS: Values Editor is passed]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[FTMS: User Groups is passed]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[FTMS: Chemical is passed]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="20907" started-at="2018-11-28T05:41:24Z" finished-at="2018-11-28T05:41:44Z">
+  <suite name="Default suite" duration-ms="88256" started-at="2018-11-29T06:43:24Z" finished-at="2018-11-29T06:44:52Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="20907" started-at="2018-11-28T05:41:24Z" finished-at="2018-11-28T05:41:44Z">
+    <test name="Default test" duration-ms="88256" started-at="2018-11-29T06:43:24Z" finished-at="2018-11-29T06:44:52Z">
       <class name="script.Tests">
-        <test-method status="PASS" signature="OpenApp()[pri:0, instance:script.Tests@7c0e2abd]" name="OpenApp" is-config="true" duration-ms="12810" started-at="2018-11-28T11:11:24Z" finished-at="2018-11-28T11:11:36Z">
+        <test-method status="PASS" signature="OpenApp()[pri:0, instance:script.Tests@7c0e2abd]" name="OpenApp" is-config="true" duration-ms="19917" started-at="2018-11-29T12:13:24Z" finished-at="2018-11-29T12:13:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenApp -->
-        <test-method status="PASS" signature="monitering()[pri:0, instance:script.Tests@7c0e2abd]" name="monitering" duration-ms="8066" started-at="2018-11-28T11:11:36Z" finished-at="2018-11-28T11:11:44Z">
+        <test-method status="PASS" signature="monitering()[pri:0, instance:script.Tests@7c0e2abd]" name="monitering" duration-ms="68318" started-at="2018-11-29T12:13:43Z" finished-at="2018-11-29T12:14:52Z">
           <reporter-output>
-            <line>
-              <![CDATA[FTMS: Home is passed]]>
-            </line>
             <line>
               <![CDATA[Element is present]]>
             </line>
@@ -42,6 +90,60 @@
             </line>
             <line>
               <![CDATA[FTMS: Technical Objectives is passed]]>
+            </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[FTMS: SOP Search is passed]]>
+            </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[FTMS: Protocols is passed]]>
+            </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[FTMS: Assignment is passed]]>
+            </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[FTMS: Protocol Index Report is passed]]>
+            </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[FTMS: Biology Plan Report is passed]]>
+            </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[FTMS: Vendor Report is passed]]>
+            </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[FTMS: Values Editor is passed]]>
+            </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[FTMS: User Groups is passed]]>
+            </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[FTMS: Chemical is passed]]>
             </line>
           </reporter-output>
         </test-method> <!-- monitering -->

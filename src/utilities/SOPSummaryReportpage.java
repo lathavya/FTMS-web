@@ -7,16 +7,18 @@ import org.openqa.selenium.support.PageFactory;
 
 import generic.BasePage;
 
-public class SOPsSearchPage extends BasePage {
+public class SOPSummaryReportpage extends BasePage {
 	@FindBy(xpath="(//tr)[6]")
 	private WebElement Table;
 	
-	public SOPsSearchPage(WebDriver driver){
+	public SOPSummaryReportpage(WebDriver driver){
 		super(driver);
-		PageFactory.initElements(driver,this);
+		PageFactory.initElements(driver, this);
 	}
-	public void SOPsTable(){
+	
+	public void SOPSummaryReportTable(){
 		VerifyElement(Table);
 	}
+
 
 }

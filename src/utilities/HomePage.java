@@ -33,8 +33,10 @@ private WebElement Protocols;
 private WebElement Assignments;
 @FindBy(xpath="(//a[.='Upload'])[1]")
 private WebElement Upload;
-@FindBy(xpath="(//a[.='Protocols'])[1]")
-private WebElement ProtocolIndexReport;
+@FindBy(xpath="(//a[.='Protocol Index Report'])[1]")
+private WebElement ProtocolIndexReport; 
+@FindBy(xpath="(//a[.='SOP Summary Report'])[1]")
+private WebElement SOPSummaryReport;
 @FindBy(xpath="(//a[.='Biology Plan Report'])[1]")
 private WebElement BiologyPlanReport;
 @FindBy (xpath="(//a[.='Vendor Report'])[1]")
@@ -85,6 +87,9 @@ public void ClickonAssignments(){
 }
 public void ClickonProtocolIndexReport(){
 	ProtocolIndexReport.click();
+}
+public void ClickonSOPSummaryReport(){
+	SOPSummaryReport.click();
 }
 public void ClickonBiologyPlanReport(){
 	BiologyPlanReport.click();
