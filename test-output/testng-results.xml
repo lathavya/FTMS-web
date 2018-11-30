@@ -2,152 +2,102 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[Element is present]]>
-    </line>
-    <line>
       <![CDATA[FTMS: Biology Plan is passed]]>
-    </line>
-    <line>
-      <![CDATA[Element is present]]>
     </line>
     <line>
       <![CDATA[FTMS: Technical Objectives is passed]]>
     </line>
     <line>
-      <![CDATA[Element is present]]>
-    </line>
-    <line>
       <![CDATA[FTMS: SOP Search is passed]]>
-    </line>
-    <line>
-      <![CDATA[Element is present]]>
     </line>
     <line>
       <![CDATA[FTMS: Protocols is passed]]>
     </line>
     <line>
-      <![CDATA[Element is present]]>
-    </line>
-    <line>
       <![CDATA[FTMS: Assignment is passed]]>
     </line>
     <line>
-      <![CDATA[Element is present]]>
-    </line>
-    <line>
-      <![CDATA[FTMS: Protocol Index Report is passed]]>
-    </line>
-    <line>
-      <![CDATA[Element is present]]>
+      <![CDATA[FTMS: SOP Summary Report is passed]]>
     </line>
     <line>
       <![CDATA[FTMS: Biology Plan Report is passed]]>
     </line>
     <line>
-      <![CDATA[Element is present]]>
-    </line>
-    <line>
       <![CDATA[FTMS: Vendor Report is passed]]>
-    </line>
-    <line>
-      <![CDATA[Element is present]]>
     </line>
     <line>
       <![CDATA[FTMS: Values Editor is passed]]>
     </line>
     <line>
-      <![CDATA[Element is present]]>
-    </line>
-    <line>
       <![CDATA[FTMS: User Groups is passed]]>
-    </line>
-    <line>
-      <![CDATA[Element is present]]>
     </line>
     <line>
       <![CDATA[FTMS: Chemical is passed]]>
     </line>
+    <line>
+      <![CDATA[FTMS: Upload Page is passed]]>
+    </line>
+    <line>
+      <![CDATA[Verify mail has to recive from ftmsdonotreply@dupont.com]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="88256" started-at="2018-11-29T06:43:24Z" finished-at="2018-11-29T06:44:52Z">
+  <suite name="Default suite" duration-ms="71169" started-at="2018-11-30T06:38:12Z" finished-at="2018-11-30T06:39:23Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="88256" started-at="2018-11-29T06:43:24Z" finished-at="2018-11-29T06:44:52Z">
-      <class name="script.Tests">
-        <test-method status="PASS" signature="OpenApp()[pri:0, instance:script.Tests@7c0e2abd]" name="OpenApp" is-config="true" duration-ms="19917" started-at="2018-11-29T12:13:24Z" finished-at="2018-11-29T12:13:43Z">
+    <test name="Default test" duration-ms="71169" started-at="2018-11-30T06:38:12Z" finished-at="2018-11-30T06:39:23Z">
+      <class name="script.FTMS_Web_Monitoring">
+        <test-method status="PASS" signature="OpenApp()[pri:0, instance:script.FTMS_Web_Monitoring@48eff760]" name="OpenApp" is-config="true" duration-ms="31086" started-at="2018-11-30T12:08:12Z" finished-at="2018-11-30T12:08:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenApp -->
-        <test-method status="PASS" signature="monitering()[pri:0, instance:script.Tests@7c0e2abd]" name="monitering" duration-ms="68318" started-at="2018-11-29T12:13:43Z" finished-at="2018-11-29T12:14:52Z">
+        <test-method status="PASS" signature="MoniteringfromWebside()[pri:0, instance:script.FTMS_Web_Monitoring@48eff760]" name="MoniteringfromWebside" duration-ms="38738" started-at="2018-11-30T12:08:43Z" finished-at="2018-11-30T12:09:22Z">
           <reporter-output>
             <line>
-              <![CDATA[Element is present]]>
-            </line>
-            <line>
               <![CDATA[FTMS: Biology Plan is passed]]>
-            </line>
-            <line>
-              <![CDATA[Element is present]]>
             </line>
             <line>
               <![CDATA[FTMS: Technical Objectives is passed]]>
             </line>
             <line>
-              <![CDATA[Element is present]]>
-            </line>
-            <line>
               <![CDATA[FTMS: SOP Search is passed]]>
-            </line>
-            <line>
-              <![CDATA[Element is present]]>
             </line>
             <line>
               <![CDATA[FTMS: Protocols is passed]]>
             </line>
             <line>
-              <![CDATA[Element is present]]>
-            </line>
-            <line>
               <![CDATA[FTMS: Assignment is passed]]>
             </line>
             <line>
-              <![CDATA[Element is present]]>
-            </line>
-            <line>
-              <![CDATA[FTMS: Protocol Index Report is passed]]>
-            </line>
-            <line>
-              <![CDATA[Element is present]]>
+              <![CDATA[FTMS: SOP Summary Report is passed]]>
             </line>
             <line>
               <![CDATA[FTMS: Biology Plan Report is passed]]>
             </line>
             <line>
-              <![CDATA[Element is present]]>
-            </line>
-            <line>
               <![CDATA[FTMS: Vendor Report is passed]]>
-            </line>
-            <line>
-              <![CDATA[Element is present]]>
             </line>
             <line>
               <![CDATA[FTMS: Values Editor is passed]]>
             </line>
             <line>
-              <![CDATA[Element is present]]>
-            </line>
-            <line>
               <![CDATA[FTMS: User Groups is passed]]>
-            </line>
-            <line>
-              <![CDATA[Element is present]]>
             </line>
             <line>
               <![CDATA[FTMS: Chemical is passed]]>
             </line>
+            <line>
+              <![CDATA[FTMS: Upload Page is passed]]>
+            </line>
+            <line>
+              <![CDATA[Verify mail has to recive from ftmsdonotreply@dupont.com]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- monitering -->
-      </class> <!-- script.Tests -->
+        </test-method> <!-- MoniteringfromWebside -->
+        <test-method status="PASS" signature="ScreenshotCloseApp()[pri:0, instance:script.FTMS_Web_Monitoring@48eff760]" name="ScreenshotCloseApp" is-config="true" duration-ms="1320" started-at="2018-11-30T12:09:22Z" finished-at="2018-11-30T12:09:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenshotCloseApp -->
+      </class> <!-- script.FTMS_Web_Monitoring -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

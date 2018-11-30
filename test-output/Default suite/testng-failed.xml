@@ -3,12 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="script.Tests">
+      <class name="script.FTMS_Web_Monitoring">
         <methods>
-          <include name="OpenApp"/>
+          <include name="ScreenshotCloseApp"/>
           <include name="monitering"/>
+          <include name="OpenApp"/>
         </methods>
-      </class> <!-- script.Tests -->
+      </class> <!-- script.FTMS_Web_Monitoring -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

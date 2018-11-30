@@ -24,10 +24,12 @@ public class UploadPage extends BasePage {
 	private WebElement UploadFiles;
 	@FindBy (xpath="(//span[.='1 file successfully uploaded'])[1]")
 	private WebElement Successmessage;
+	@FindBy (xpath="(//span)[.='CDS97203']")
+	private WebElement Filenamevalue;
 	
 public UploadPage(WebDriver driver){
 	super(driver);
-driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 	PageFactory.initElements(driver, this);
 
 	}
@@ -45,4 +47,8 @@ public void ClickonUploadFiles(){
 public void uploadedFileMessage(){
 	VerifyElement(Successmessage);
 	}
+
+public void onlyuploadfilename(){
+	VerifyElement(Filenamevalue);
+}
 }
